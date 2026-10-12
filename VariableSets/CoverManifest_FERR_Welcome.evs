@@ -208,7 +208,7 @@
       <OperatorType>com.enfocus.operator.constant</OperatorType>
       <GUID>15</GUID>
       <OperatorData>
-        <Value>Total Variable Sheets Printed: [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/groupSheets&quot;]</Value>
+        <Value>Total Variable Sheets Printed: [Switch.Calculation:Expression=&quot;[Stats.NumberOfPages]/2&quot;]</Value>
         <ValueType>String</ValueType>
       </OperatorData>
       <OperatorVersion>1</OperatorVersion>
@@ -234,7 +234,7 @@
       <OperatorType>com.enfocus.operator.constant</OperatorType>
       <GUID>18</GUID>
       <OperatorData>
-        <Value>Total Varibale Letter: [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/groupLetters&quot;]</Value>
+        <Value>Total Varibale Letter: [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/RecordCount&quot;]</Value>
         <ValueType>String</ValueType>
       </OperatorData>
       <OperatorVersion>1</OperatorVersion>
@@ -260,7 +260,7 @@
       <OperatorType>com.enfocus.operator.constant</OperatorType>
       <GUID>21</GUID>
       <OperatorData>
-        <Value>Total F0003-2009 - PERC Brochures: [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/groupLetters&quot;]</Value>
+        <Value>Total F0003-2009 - PERC Brochures: [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/RecordCount&quot;]</Value>
         <ValueType>String</ValueType>
       </OperatorData>
       <OperatorVersion>1</OperatorVersion>
@@ -312,7 +312,7 @@
       <OperatorType>com.enfocus.operator.constant</OperatorType>
       <GUID>27</GUID>
       <OperatorData>
-        <Value>Total F0003-2011 - OE: [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/groupLetters&quot;]</Value>
+        <Value>Total F0003-2011 - OE:  [Metadata.Text:Dataset=&quot;Manifest&quot;,Model=&quot;JSON&quot;,Path=&quot;/RecordCount&quot;]</Value>
         <ValueType>String</ValueType>
       </OperatorData>
       <OperatorVersion>1</OperatorVersion>
